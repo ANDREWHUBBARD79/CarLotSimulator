@@ -19,8 +19,9 @@ namespace CarLotSimulator
         public Car() 
         
         
-        { 
-         
+        {
+            Carlot.numberOfCars++; //every time car created increase cars by 1
+            //classname.static member
         }  
         
 
